@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MOVApplication">
+        <activity android:name=".HomeScreenActivity"></activity>
+        <activity android:name=".SignupPhotoscreenActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".onBoarding.OnboardingThreeScreenActivity" />
+        <activity android:name=".onBoarding.OnboardingTwoScreenActivity" />
+        <activity android:name=".onBoarding.OnboardingOneScreenActivity" />
         <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
