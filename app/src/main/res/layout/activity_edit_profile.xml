@@ -17,7 +17,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:gravity="center"
-        android:text="@string/signup"
+        android:text="@string/edit_profile"
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,14 +31,15 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:text="@string/username"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
     <EditText
         android:id="@+id/input_username"
@@ -103,7 +104,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="24dp"
         android:background="@drawable/shape_rectangle_pink"
-        android:text="@string/lanjutkan"
+        android:text="@string/simpan_data_baru"
         app:backgroundTint="@color/pink"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -187,5 +188,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/ic_user" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
