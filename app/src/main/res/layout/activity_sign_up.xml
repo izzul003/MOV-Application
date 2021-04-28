@@ -40,25 +40,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
-    <EditText
-        android:id="@+id/input_username"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:backgroundTint="@color/white"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="AgusS"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
-
     <TextView
         android:id="@+id/textView9"
         android:layout_width="0dp"
@@ -71,27 +52,9 @@
         android:text="@string/password"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_username" />
-
-    <EditText
-        android:id="@+id/input_password"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:backgroundTint="@color/white"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:text="sssss"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintTop_toBottomOf="@+id/daftar_username" />
 
     <Button
         android:id="@+id/button7"
@@ -104,6 +67,7 @@
         android:layout_marginBottom="24dp"
         android:background="@drawable/shape_rectangle_pink"
         android:text="@string/lanjutkan"
+        android:textColor="@color/white"
         app:backgroundTint="@color/pink"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -133,10 +97,10 @@
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_password" />
+        app:layout_constraintTop_toBottomOf="@+id/daftar_password" />
 
     <EditText
-        android:id="@+id/input_name"
+        android:id="@+id/daftar_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -147,9 +111,9 @@
         android:backgroundTint="@color/white"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Agus Supriyatna"
         android:textColor="@color/white"
         android:textSize="18sp"
+        tools:text="Agus Supriyatna"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
@@ -167,10 +131,10 @@
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_name" />
+        app:layout_constraintTop_toBottomOf="@+id/daftar_name" />
 
     <EditText
-        android:id="@+id/input_email"
+        android:id="@+id/daftar_email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -181,11 +145,48 @@
         android:backgroundTint="@color/white"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="agus@gmail.com"
         android:textColor="@color/white"
         android:textSize="18sp"
+        tools:text="agus@gmail.com"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <EditText
+        android:id="@+id/daftar_username"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        tools:text="AgusS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <EditText
+        android:id="@+id/daftar_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        tools:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

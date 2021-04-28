@@ -8,7 +8,7 @@
     tools:context=".onBoarding.OnboardingOneScreenActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_to_login"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -18,13 +18,14 @@
         android:layout_marginBottom="24dp"
         android:background="@drawable/shape_rectangle_blue_gray"
         android:text="@string/lewati_perkenalan"
+        android:textColor="@color/white"
         app:backgroundTint="@color/blue_dark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_lanjut_on_boarding2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -34,8 +35,9 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/shape_rectangle_pink"
         android:text="@string/lanjutkan"
+        android:textColor="@color/white"
         app:backgroundTint="@color/pink"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btn_to_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

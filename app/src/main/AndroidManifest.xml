@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mov_application">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
         android:allowBackup="true"
@@ -9,21 +15,52 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MOVApplication">
-        <activity android:name=".MyHistoryActivity"></activity>
-        <activity android:name=".MyWalletActivity" />
-        <activity android:name=".EditProfileActivity" />
-        <activity android:name=".CheckoutSuccessActivity" />
-        <activity android:name=".CheckoutFailedActivity" />
-        <activity android:name=".PilihBangkuActivity" />
-        <activity android:name=".DetailScreenActivity" />
-        <activity android:name=".HomeScreenActivity" />
-        <activity android:name=".sign.SignupPhotoscreenActivity" />
-        <activity android:name=".sign.SignUpActivity" />
-        <activity android:name=".sign.SignInActivity" />
-        <activity android:name=".onBoarding.OnboardingThreeScreenActivity" />
-        <activity android:name=".onBoarding.OnboardingTwoScreenActivity" />
-        <activity android:name=".onBoarding.OnboardingOneScreenActivity" />
-        <activity android:name=".SplashScreenActivity">
+        <activity
+            android:name=".MyHistoryActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".MyWalletActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".EditProfileActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".CheckoutSuccessActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".CheckoutFailedActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".PilihBangkuActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".DetailScreenActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".HomeScreenActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".sign.SignupPhotoscreenActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".sign.SignUpActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".sign.SignInActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".onBoarding.OnboardingThreeScreenActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".onBoarding.OnboardingTwoScreenActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".onBoarding.OnboardingOneScreenActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

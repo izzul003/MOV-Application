@@ -137,7 +137,7 @@
         app:layout_constraintTop_toBottomOf="@+id/input_password" />
 
     <EditText
-        android:id="@+id/input_name"
+        android:id="@+id/daftar_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -168,10 +168,10 @@
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_name" />
+        app:layout_constraintTop_toBottomOf="@+id/daftar_name" />
 
     <EditText
-        android:id="@+id/input_email"
+        android:id="@+id/daftar_email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
