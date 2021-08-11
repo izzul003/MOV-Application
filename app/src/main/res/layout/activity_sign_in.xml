@@ -116,7 +116,7 @@
         android:layout_marginBottom="24dp"
         android:background="@drawable/shape_rectangle_blue_gray"
         android:backgroundTint="@color/pink"
-        android:text="@string/daftar_akun_baru"
+        android:text="@string/masuk_akun_baru"
         android:textColor="@color/white"
         app:backgroundTint="@color/blue_dark"
         app:layout_constraintBottom_toBottomOf="parent"

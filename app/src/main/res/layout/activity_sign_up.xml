@@ -57,7 +57,7 @@
         app:layout_constraintTop_toBottomOf="@+id/daftar_username" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btn_lanjutkan_signup_photo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
